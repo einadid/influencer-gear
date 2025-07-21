@@ -1,7 +1,71 @@
-/* General Body Style  */
-body {
-    margin: 0;
+
+/* General  Style  */
+header{
+    margin: 95px 120px;
+}
+/* flex */
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* navbar */
+.navbar{
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: center;
+
+}
+
+.nav-title{
     font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    color: #3A3A3A;
+}
+.nav-icon{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px; 
+    gap: 34px;
+    list-style: none;
+    justify-self: end;
+    color: #3A3A3A;
+
+}
+.nav-icon a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+/* banner */
+.banner-title{
+
+}
+.banner-title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 16px;
+
+}
+
+.banner-title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3A3A3A;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 16px;
+
 }
 
 /* Footer Styling */
