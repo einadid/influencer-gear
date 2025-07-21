@@ -1,21 +1,21 @@
-/* General Body Style (for demonstration) */
+/* General Body Style  */
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif; /* Set a default font */
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Footer Styling */
 .footer {
-    background-color: #100E2B; /* Slightly adjusted color to better match the image */
+    background-color: #100E2B;
     color: white;
-    padding: 60px 20px; /* Added padding for top/bottom and sides */
-    text-align: center; /* This is key to centering all the text */
+    padding: 60px 20px; 
+    text-align: center; 
 }
 
 .footer-title {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
-    font-weight: 600; /* Use 600 for semi-bold as per Poppins font */
+    font-weight: 600;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -23,21 +23,21 @@ body {
 .footer-des {
     font-family: 'Manrope', sans-serif;
     font-size: 14px;
-    font-weight: 400; /* Regular weight */
-    line-height: 1.6; /* Improves readability */
-    margin-bottom: 25px; /* Space between text and icons */
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-bottom: 25px; 
 }
 
 .footer-des p {
-    margin: 5px 0; /* Adjust spacing between copyright lines */
+    margin: 5px 0; 
 }
 
 /* Social Icons Container */
 .social-icons {
     display: flex;
-    justify-content: center; /* Center the icons horizontally */
+    justify-content: center; 
     align-items: center;
-    gap: 16px; /* Creates space between the icons */
+    gap: 16px; 
 }
 
 /* Individual Icon Styling */
@@ -45,14 +45,14 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 36px;   /* Set a fixed width */
-    height: 36px;  /* Set a fixed height */
-    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-    color: white; /* Icon color */
-    border-radius: 50%; /* Makes the background circular */
-    text-decoration: none; /* Removes underline from links */
-    font-size: 16px; /* Size of the icon font */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    width: 32px;  
+    height: 32px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white; 
+    border-radius: 50%; 
+    text-decoration: none;
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
 }
 
 /* Hover effect for icons */
